@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Water_delivery.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <StackLayout x:Name="invce"
+                     Grid.Row ="0"/>
+        <Button VerticalOptions="Center"
+                HorizontalOptions="Start"
+                Margin="5"
+                CornerRadius="100"
+                Grid.Row="1"
+                WidthRequest="150"
+                HeightRequest="50"
+                Clicked="invoice"
+                x:Name="order_"
+                IsEnabled="False"
+                BackgroundColor="Green"
+                Text="Заказать"/>
+
+
+        <Button VerticalOptions="Center"
+                HorizontalOptions="End"
+                Margin="5"
+                CornerRadius="100"
+                Grid.Row="1"
+                WidthRequest="150"
+                HeightRequest="50"
+                Clicked="choose"
+                BackgroundColor="LightBlue"
+                Text="Выбор товара"/>
+
+
+    </Grid>
+
+</ContentPage>

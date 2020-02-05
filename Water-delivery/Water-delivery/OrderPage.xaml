@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Water_delivery.OrderPage">
+
+    <StackLayout Padding="5">
+        <Picker SelectedIndexChanged="menu"
+                x:Name="picker"/>
+
+
+        <Image HorizontalOptions="Center"
+               Margin="5"
+               HeightRequest="300"
+               WidthRequest="300"
+               x:Name="photo_"/>
+
+        <Stepper IsEnabled="False"
+                 ValueChanged="quantity"
+                 HorizontalOptions="Center"
+                 Margin="5"
+                 x:Name="plus_minus"
+                 Increment="1"
+                 Minimum="0"
+                 Maximum="10000"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label HorizontalOptions="Center"
+                   Text="0"
+                   x:Name="price"
+                   Grid.Column="0"/>
+
+            <Label HorizontalOptions="Center"
+                   Text="0"
+                   x:Name="chislo"
+                   Grid.Column="1"/>
+
+        </Grid>
+
+        <Button Text="Добавить в корзину"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Clicked="add_to_cart"
+                BackgroundColor="LightGreen"
+                HeightRequest="50"
+                WidthRequest="275"
+                CornerRadius="100"
+                IsEnabled="False"
+                x:Name="add_to_cart_"/>
+    </StackLayout>
+
+</ContentPage>

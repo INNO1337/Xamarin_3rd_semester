@@ -1,0 +1,6 @@
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\Water-delivery.csprojAssemblyReference.cache
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\OrderPage.xaml.g.cs
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\Water-delivery.AssemblyInfoInputs.cache
+C:\Users\ficus\Desktop\Water-delivery\Water-delivery\obj\Debug\netstandard2.0\Water-delivery.AssemblyInfo.cs
